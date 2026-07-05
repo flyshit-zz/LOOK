@@ -1,0 +1,34 @@
+# ── 敏感环境变量 ──
+.env
+servers_config.json
+
+# ── Python 虚拟环境 ──
+.venv/
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+build/
+
+# ── 数据库文件 ──
+*.db
+*.db-shm
+*.db-wal
+chroma_langchain_db/
+chroma_memory_db/
+
+# ── 日志文件 ──
+*.log
+logs/
+
+# ── IDE ──
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# ── 系统文件 ──
+.DS_Store
+Thumbs.db
